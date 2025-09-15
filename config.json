@@ -1,0 +1,25 @@
+{
+  "XXXXXX":
+  {
+    "Email": "xxxx0000@purdue.edu",
+    "Courses":
+      {
+      "Computer Vision beginning of class":
+      {
+        "Name": "Computer Vision beginning of class",
+        "Start Time": "08:20",
+        "End Time": "08:40",
+        "latitude": 40.423705,
+        "longitude": -86.921230
+      },
+      "Computer Vision end of class":
+      {
+        "Name": "Computer Vision end of class",
+        "Start Time": "09:00",
+        "End Time": "09:30",
+        "latitude": 40.423705,
+        "longitude": -86.921230
+      }
+      }
+  }
+}

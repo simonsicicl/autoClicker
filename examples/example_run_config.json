@@ -1,0 +1,22 @@
+{
+  "Kenneth-Chen":
+  {
+    "Email": "my@email.com",
+    "Password": "abc123",
+    "Courses":
+      {
+      "MyCourse 2022 Fall":
+      {
+        "Name": "MyCourse 2022 Fall",
+        "Start Time": "16:00",
+        "End Time": "17:30"
+      },
+      "Finite Element Analysis 3:00":
+      {
+        "Name": "Finite Element Analysis 3:00",
+        "Start Time": "17:32",
+        "End Time": "19:10"
+      }
+      }
+  }
+}
