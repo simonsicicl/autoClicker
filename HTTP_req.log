@@ -1,0 +1,259 @@
+-------------
+2025-09-17 11:46:19.151376-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:46:21.418796-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:46:25.196740-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:46:27.610197-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:46:31.568504-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:46:33.416861-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:46:37.839021-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:49:06.489383-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:53:42.023242-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:53:43.864065-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:53:47.428413-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:53:50.363686-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:53:53.368592-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:53:56.090094-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:54:00.264124-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:54:01.735051-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:54:06.532990-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 11:54:08.757536-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:42:47.046014-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:42:48.460849-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:42:51.541907-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:42:54.869684-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:42:57.820133-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:43:01.728984-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:43:03.416659-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:43:06.557968-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:43:13.071954-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:43:15.957090-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:43:18.531108-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:58:39.926333-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:58:42.071975-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:58:45.069493-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:58:48.516258-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:58:51.073894-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:58:54.775512-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:58:57.123725-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:59:00.756520-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:59:04.743440-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 12:59:08.079273-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 13:13:07.640390-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 13:13:11.625708-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 13:13:14.630282-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}-------------
+2025-09-17 13:13:16.821028-04:00
+Request:
+https://api.iclicker.com/student/course/status
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1"}
+Response:
+{"courseId":"bad02e22-5ef5-4d36-996e-de250af2f9c1","meetingId":null,"enableFocus":false,"remoteOnly":false,"attendanceStatus":null}
