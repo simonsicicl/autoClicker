@@ -123,48 +123,33 @@ class iClicker_driver:
             self.wait_thread.start()
 
     def wait_for_meeting(self):
-        while True:
-            self.cmd_print('WFM', 'Waiting for meeting...')
-            # 不斷偵測 btnJoin 是否出現
-            btn_clicked = False
-            while not btn_clicked:
-                if self.course_schedule[self.currentCourseIndex].end_time <= HourMinute.utcnow(self.get_local_now()):
-                    self.cmd_print('WFM', 'Current course has ended, stopping wait_for_meeting...')
-                    return
-                self.time_lock.acquire()
-                try:
-                    btn = self.driver.find_element(By.ID, self.JOIN_BTN_ID)
-                    if btn.is_displayed() and btn.is_enabled():
-                        self.cmd_print('WFM', 'Checking for btnJoin... btnJoin appeared and is clickable! Clicking...')
-                        btn.click()
-                        btn_clicked = True
-                    else:
-                        self.cmd_print('WFM', 'Checking for btnJoin... btnJoin not clickable yet.', replace=True)
-                except Exception:
-                    self.cmd_print('WFM', 'Checking for btnJoin... btnJoin not found yet.', replace=True)
-                self.time_lock.release()
-                sleep(5)
+        self.cmd_print('WFM', 'Waiting for meeting...')
+        # 不斷偵測 btnJoin 是否出現
+        btn_clicked = False
+        while not btn_clicked:
+            if self.course_schedule[self.currentCourseIndex].end_time <= HourMinute.utcnow(self.get_local_now()):
+                self.cmd_print('WFM', 'Current course has ended, stopping wait_for_meeting...')
+                return
+            self.time_lock.acquire()
+            try:
+                btn = self.driver.find_element(By.ID, self.JOIN_BTN_ID)
+                if btn.is_displayed() and btn.is_enabled():
+                    self.cmd_print('WFM', 'Checking for btnJoin... btnJoin appeared and is clickable! Clicking...')
+                    btn.click()
+                    btn_clicked = True
+                else:
+                    self.cmd_print('WFM', 'Checking for btnJoin... btnJoin not clickable yet.')
+            except Exception:
+                self.cmd_print('WFM', 'Checking for btnJoin... btnJoin not found yet.')
+            self.time_lock.release()
+            sleep(5)
             # three-dot-loader
             try:
                 WebDriverWait(self.driver, 20).until(
                     ec.invisibility_of_element((By.ID, 'three-dot-loader')))
             except Exception:
                 self.cmd_print('WFM', 'Waiting for three-dot-loader to disappear...')
-            self.cmd_print('WFM', 'Clicked btnJoin and finished join process.')
-            self.joinThreadIsWaiting = True
-            self.joinThreadIsWaitingEvent.set()
-            self.cmd_print('WFM', 'Released time_lock. Waiting for restart flag...')
-            # todo: add wait for event to restart
-            while True:
-                self.restartEvent.wait()
-                self.time_lock.acquire()
-                if self.restartFlag:
-                    break
-                self.time_lock.release()
-            self.time_lock.acquire()
-            self.restartFlag = False
-            self.time_lock.release()
-            self.cmd_print('WFM', 'Restart flag raised. wait_for_meeting is restarting...')
+        self.cmd_print('WFM', 'Clicked btnJoin and finished join process.')
 
     def wait_for_time(self):
         next_course_time = self.course_schedule[self.nextCourseIndex].start_time
@@ -175,12 +160,12 @@ class iClicker_driver:
             if wait_for_next_day:
                 self.cmd_print('WFT', f'Need to wait for next day for course {self.course_schedule[self.nextCourseIndex].course}')
                 while current_day == self.get_local_now().weekday():
-                    self.cmd_print('WFT', 'waiting for next day...', replace=True)
+                    self.cmd_print('WFT', 'Waiting for next day...', replace=True)
                     sleep(60)
                 wait_for_next_day = False
                 self.cmd_print('WFT', 'No longer waiting for next day!')
             now = HourMinute.utcnow(self.get_local_now())
-            self.cmd_print('WFT', 'waiting for time...')
+            self.cmd_print('WFT', 'Waiting for time...', replace=True)
             if now >= next_course_time:  # and now >= self.course_schedule[self.currentCourseIndex].end_time
                 self.cmd_print('WFT', f'Time change! Entering the course {self.course_schedule[self.nextCourseIndex].course} which starts at {next_course_time}')
                 if self.driver.current_url != self.COURSES_URL:
@@ -193,7 +178,8 @@ class iClicker_driver:
                 # print(f"Done waiting. Navigating to course of {self.course_schedule[self.nextCourseIndex].course}")
 
                 self.currentCourseIndex = self.nextCourseIndex
-
+                self.wait_thread = None
+                self.wait_thread = Thread(name='WaitForMeeting', target=self.wait_for_meeting)
                 self.navigate_to_course(self.course_schedule[self.nextCourseIndex].course)
                 self.cmd_print('WFT', 'Done navigating.')
                 
@@ -210,7 +196,6 @@ class iClicker_driver:
                     self.nextCourseIndex += 1
                 next_course_time = self.course_schedule[self.nextCourseIndex].start_time
                 self.cmd_print('WFT', f'Next course switch to occur at {next_course_time}')
-                self.cmd_print('WFT', 'Releasing time_lock')
                 self.time_lock.release()
             else:
                 sleep(60)
